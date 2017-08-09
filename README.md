@@ -8,7 +8,7 @@ Graphical recommender system using personalized PageRank (Random Walk with Resta
 
 A bipartite graph is a graph where nodes can be divided into two groups V1 and V2 such that no edge connects the vertices in the same group.
 
-![Image](images/bipartite-graph.png?raw=true "Image")
+![Image](image/bipartite-graph.png)
 
 #### Neighborhood formation: Random Walk with restart algorithm (personalized pagerank)
 Given a query node a in V1, Neighborhood Formation computes the relevance scores of all the nodes in V1 to a. 
@@ -17,11 +17,11 @@ Random walk with restart is the 'personalized' rangerank algorithm. It models th
 
 In this dataset, given a patient(user) node, the RWR algorithm will compute and output the closest 10 neighboring user. 
 
-![Image](images/Neighborhood-formation.png?raw=true "Image")
+![Image](image/Neighborhood-formation.png)
 
 In the simulated data above, user2 and user3 are connected by Med2&3 and Lab2&3, whereas user1 doesn't have any shared node connected with user2/3's neighborhood. Therefore, when running the [proof of concept python code](proof_of_concept_pagerankRWR.py) you will see that the closest neighbor (user edge) for user2 (beside himself) is user3. 
 
-![Image](images/simulation_result.png?raw=true "Image")
+![Image](image/simulation_result.png) 
 
 
 ## Dependencies
