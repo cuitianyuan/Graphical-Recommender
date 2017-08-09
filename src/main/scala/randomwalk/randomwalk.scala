@@ -57,12 +57,7 @@ object RandomWalk {
     }
     val top10=rankGraph.vertices.filter(f=>f._1<=1000).takeOrdered(11)(Ordering[Double].reverse.on(x=>x._2)).map(_._1)
 
-    top10.slice(1,top10.length).toList
-
-
-    //rankGraph
-
-    /** Remove this placeholder and implement your code */
+    top10.slice(1,top10.length).toList   // Start from 1, Exclude the user himself
 
   }
 }
