@@ -36,11 +36,3 @@ In the simulated data above, user2 and user3 are connected by Med2&3 and Lab2&3,
 2. [Sun et al. Neighborhood Formation and Anomaly Detection in Bipartite Graphs](http://www.cs.cmu.edu/~deepay/mywww/papers/icdm05.pdf)
 3. [GraphX personalized pagerank](https://github.com/apache/spark/blob/master/graphx/src/main/scala/org/apache/spark/graphx/lib/PageRank.scala)
 
-## To do
-1. Other kinds of similarity matrix
-	* Search_Query - Search_Query
-	* Onet - Onet
-	* User - User (will incvolve overnight update)
-2. Expand number of nodes. The experiments in A Epasto et al used billions of node.
-3. Create the parallel prediction method. 
-4. Expand number of companies after creating the parallel prediction method. 
